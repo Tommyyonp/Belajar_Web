@@ -1,0 +1,14 @@
+BG1 1280 x 720
+
+Hal 2: 1280 x 640
+Gambar Last Articles : 300 x 200
+Kotak 3: 300 x 400
+
+1. Logo : Bold 70 x 33
+2. About : 81 x 33
+3. Articles : 105 x 33
+4. Subscribe : 96 x 25 Kotaknya 150 x 50
+
+ART OF PLANT: BOLD 453 x 87
+ALL ABOUT NATURE : 234 x 25
+Strip bawah : 75 x 3
