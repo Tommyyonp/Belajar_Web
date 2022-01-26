@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSChallenge2</title>
+</head>
+<body>
+    
+<script>
+
+const loopArray = (data) => data.map((data) => console.log(data));
+
+const kurangdaripembanding = (dataArray, nilaipembanding) =>{
+    const panjangArray = dataArray.length;
+    if (panjangArray < nilaipembanding){
+        loopArray(data);
+    } else {
+        console.log(true)
+    } 
+    console.log (panjangArray);
+}
+
+const bukandenganpembanding = (dataArray, nilaipembanding, params1, params2 = 0) =>{
+    const panjangArray = dataArray.length + params1 + params2;
+    if (panjangArray !== nilaipembanding){
+        loopArray(data);
+    } else {
+        console.log(true)
+    }
+    console.log (panjangArray);
+}
+
+let data = []
+let data1 = [ 2, 5, 10, 'ini dia', 'data', 100 , 38 ];
+let data2 = [ 3, 100, 283, 'saya', 'adalah', 'kapiten', 75 ];
+let data3 = [ 29, 12, 30, 'ini', 'saya', 85 ];
+let data4 = [ 20, 12, 43, 54, 24 ];
+let data5 = [ 20, 'empat', 'limat', 8, 29, 30 ];
+let data6 = [ 'data', 'empat', 8 , 3, 100, 8, 100, 3  ];
+
+
+let a = 22;
+let b = 25;
+let c = 1;
+let x = 29;
+
+//1 
+
+kurangdaripembanding(data1, 50);
+
+
+//2 
+
+bukandenganpembanding(data2, 32, b)
+
+//3 
+
+bukandenganpembanding(data3, 28, a)
+
+//4
+
+bukandenganpembanding(data4, 35, 1)
+
+//5
+
+bukandenganpembanding(data5, 35, x)
+
+//6
+
+bukandenganpembanding(data6, 25, c, a)
+
+</script>
+</body>
+</html>
